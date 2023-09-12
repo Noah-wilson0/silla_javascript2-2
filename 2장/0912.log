@@ -1,0 +1,130 @@
+10+20
+30
+10+20
+30
+consl
+VM48:1 Uncaught ReferenceError: consl is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM48:1
+console.log("안녕하세요")
+VM124:1 안녕하세요
+undefined
+alert(10)
+undefined
+alert(a)
+VM177:1 Uncaught ReferenceError: a is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM177:1
+a=10
+10
+alert(a)
+undefined
+confirm("종료")
+false
+confirm("종료")
+true
+prom
+VM291:1 Uncaught ReferenceError: prom is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM291:1
+prompt("name=>)
+VM359:1 Uncaught SyntaxError: Invalid or unexpected token
+prompt("name=>")
+'choi'
+prompt("name=>","kim")
+'kim'
+prompt("name=>","kim")
+null
+name="hoi"
+'hoi'
+console.log`$(name)입니다`
+VM599:1 ['$(name)입니다', raw: Array(1)]
+undefined
+console(name+"자바스크립트를 공부 중입니다.")
+VM718:1 Uncaught TypeError: console is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM718:1
+console.log(name+"자바스크립트를 공부 중입니다.")
+VM729:1 hoi자바스크립트를 공부 중입니다.
+undefined
+console.log(name+"님 환영합니다.")
+VM752:1 hoi님 환영합니다.
+undefined
+console.log("제 이름은"+name+"입니다.")
+VM777:1 제 이름은hoi입니다.
+undefined
+let result
+undefined
+result=10
+10
+result=20
+20
+console.log(result)
+VM894:1 20
+undefined
+const number=10
+undefined
+number
+10
+number=20
+VM973:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:7
+(anonymous) @ VM973:1
+let age=22
+undefined
+console.log(name+"님 나이는"+age+"세 입니다.")
+VM1339:1 hoi님 나이는22세 입니다.
+undefined
+console.log(`${name}님 나이는${age}세 입니다.`)
+VM1464:1 hoi님 나이는22세 입니다.
+undefined
+10>2
+true
+10>2
+true
+10>20
+false
+let student={
+    major:"컴퓨터공학부",
+    idNum:202095097,
+    name:"최원진"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202095097, name: '최원진'}
+student.name
+'최원진'
+student["major"]
+'컴퓨터공학부'
+let id=Symbol()
+undefined
+const menber={
+    name:"최원진",
+    [id]:12345
+}
+undefined
+menbar
+VM1960:1 Uncaught ReferenceError: menbar is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1960:1
+const member={
+    name:"최원진",
+    [id]:12345
+}
+undefined
+member
+{name: '최원진', Symbol(): 12345}
+member.id
+undefined
+member.id
+undefined
+member[id]
+12345
+member.name==member[id]
+false
+isempty=true
+true
+isempty.to
+undefined
+isempty.toString()
+'true'
