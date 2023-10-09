@@ -4,7 +4,7 @@
 
 ### [1.스코프](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/4%EC%9E%A5/js/scope-4.js)
 
-'''javascript
+```javascript
 const factor=5 //변수 선언 및 생성
 const num=10
 function calc(num){
@@ -16,9 +16,9 @@ function calc(num){
     let result=calc(num)  
     console.log(`result : ${result}`)
 }
-'''
+```
 
-''' javascript
+``` javascript
 const factor=5 
 const num=10
 function calc(){
@@ -30,7 +30,7 @@ function calc(){
     let result=calc()  
     console.log(`result : ${result}`)
 }
-'''
+```
 
 
 
