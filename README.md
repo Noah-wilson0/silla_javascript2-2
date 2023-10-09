@@ -10,10 +10,11 @@
 [코드 오류 이유](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84)
 
 
-<div>
-<a href="[https://google.com](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84)https://velog.io/@noahwilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84" target="_blank">새창에서 열려랴 얍</a>
-</div>
 
+<a href="[https://google.com](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84)https://velog.io/@noahwilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84" target="_blank">새창에서 열려랴 얍</a>
+
+
+<a href="https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84" target="_blank">새창에서 블로그 글 열기</a>
 
 
 
