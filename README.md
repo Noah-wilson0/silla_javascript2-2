@@ -11,9 +11,7 @@
 
 
 
-[구글 웹싸이트 가기](http://google.com){: target="_blank"}
 
-<a href="https://google.com" target="_blank">새창에서 열려랴 얍</a>
 
 
 
