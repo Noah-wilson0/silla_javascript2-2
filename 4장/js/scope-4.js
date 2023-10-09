@@ -5,7 +5,7 @@ function calc(){
 }
 
 {
-    const name=10
+    const num=10
     let result=calc()  //함수 호출
     console.log(`result : ${result}`)
 }
