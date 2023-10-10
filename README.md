@@ -26,9 +26,9 @@ ChangeBackground()로 할당하면 페이지가 로드될 때 바로 함수가 �
 ```javascript
 button3.onclick=  function(){
   document.body.style.backgroundColor="orange";
- }
+}
 ```
-<br>
+
 ```html
  <button id="btn3" onclick="alert('두 가지 이벤트 처리')">Click-두 가지 이벤트 처리</button>
 ```
