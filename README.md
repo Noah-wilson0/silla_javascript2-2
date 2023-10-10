@@ -23,13 +23,13 @@
 ChangeBackground()로 할당하면 페이지가 로드될 때 바로 함수가 실행되고, ChangeBackground로 할당하면 버튼을 클릭했을 때만 함수가 실행되기 떄문이다.
 <br>
 2.js파일 26~28번째 줄과 html 파일의 아래를 보면 아래와 같다.<br>
-```
+```javascript
 button3.onclick=  function(){
   document.body.style.backgroundColor="orange";
  }
 ```
 <br>
-``` html
+```html
  <button id="btn3" onclick="alert('두 가지 이벤트 처리')">Click-두 가지 이벤트 처리</button>
 ```
 <br>
