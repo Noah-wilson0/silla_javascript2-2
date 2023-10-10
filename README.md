@@ -33,7 +33,6 @@ button3.onclick=function(){
 ```html
  <button id="btn3" onclick="alert('두 가지 이벤트 처리')">Click-두 가지 이벤트 처리</button>
 ```
-<br>
 이 코드를 실행하면 `document.body.style.backgroundColor="orange";`부분만 실행이 되는데 
 그 이유는 on이벤트 프로퍼티는 하나만 사용이 가능하기 때문이다. <br>
  =>addEventListener 사용하면 여러 함수 적용 가능하다.<br>
