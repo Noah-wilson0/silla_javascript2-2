@@ -38,6 +38,7 @@ button3.onclick=function(){
  =>addEventListener 사용하면 여러 함수 적용 가능하다.<br>
 
 
+[여기 클릭](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/6%EC%9E%A5/js/modal.js)
 
 
 
