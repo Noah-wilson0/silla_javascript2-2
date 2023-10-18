@@ -48,7 +48,8 @@ open.addEventListener("click",()=>{
 1번 코드가 작동하고 그다음부터는 열고 닫기가 연속성으로 안된다.<br>
 `modalbox.classList.remove("active"); `를 사용하여 적용한 `.active`스타일을 remove하여 해제하면 정상 작동한다.<br>
 
-
+7장remove-2.html내용<br>
+이유 화살표 함수에서 this는 window객체를 가리킨다.<br>
 
 
 
