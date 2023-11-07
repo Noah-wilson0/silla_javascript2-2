@@ -5,7 +5,7 @@
 [2.함수에서 다른 함수 반환하기](#2함수에서-다른-함수-반환하기) <br>
 [3.리스너-on이벤트](#3on-이벤트) <br>
 ## 기말고사
-[1.생성자](#1-생성자)<br>
+[1.생성자](#1\.생성자) <br>
 ### 1\.블록 소크프
 [블록 스코프 소스 코드](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/4%EC%9E%A5/js/scope-4.js)<br>
 [코드 오류 이유](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84) <br>
@@ -53,14 +53,31 @@ open.addEventListener("click",()=>{
 이유 화살표 함수에서 this는 window객체를 가리킨다.<br>
 
 9장 2023/11/07<br>
-생성자 함수와 프로토 타입 메서드는 어떤 것을 사용해도 되지만
-차이점이 있다.
-생성자 함수 안에서 메서드를 정의하려면 처음 객체를 만들때부터 필요한 함수를 모두 알고 있어야 한다.
-만약 중간에 수정이 필요하다면 생성자 함수를 수정해야되지만
-프로토타입을 사용하면 메서드를 필요할때마다 추가할수 있다.
-그래서 일반적으로 객체의 메서드는 프로토 타입을 사용해서 정의한다.
-
 ### 1.생성자
+[생성자 함수](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/9%EC%9E%A5/js/inheri-1.js)
+[constructor사용](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/9%EC%9E%A5/js/inheri-2.js)
+``` javascript
+//1. 생성자 함수 만들기
+function Book(title,price){
+    this.title=title;
+    this.price=price;
+}
+//2. 클래스안에서 생성자 만들떄
+class BookC{
+    //프로퍼티 생성.
+    constructor(title,price){
+        this.title=title;
+        this.price=price;
+    }
+}
+```
+생성자 함수와 프로토 타입 메서드는 어떤 것을 사용해도 되지만 `차이점`이 있다.
+- 생성자 함수 안에서 메서드를 정의하려면 처음 객체를 만들때부터 필요한 함수를 모두 알고 있어야 한다.
+- 만약 중간에 수정이 필요하다면 생성자 함수를 수정해야되지만 프로토타입을 사용하면 메서드를 필요할때마다 추가할수 있다.
+- 그래서 일반적으로 객체의 메서드는 프로토 타입을 사용해서 정의한다.
+또 1과 2는 같은 기능을 하지만 2는java처럼 쓰는 방법이고 1는 자바스크립트에서 쓰는 방법으로 function으로 정의하는 방식으로 두개 다 같은 기능을 한다.
+
+
 
 
 
