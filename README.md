@@ -1,10 +1,11 @@
 # silla_javascript2-2
 #신라대학교 JavaScript 수업 내용
-
+## 중간고사
 [1.블록 스코프](#1블록-소크프) <br>
 [2.함수에서 다른 함수 반환하기](#2함수에서-다른-함수-반환하기) <br>
 [3.리스너-on이벤트](#3on-이벤트) <br>
-
+## 기말고사
+[1.생성자](#1-생성자)<br>
 ### 1\.블록 소크프
 [블록 스코프 소스 코드](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/4%EC%9E%A5/js/scope-4.js)<br>
 [코드 오류 이유](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84) <br>
@@ -59,6 +60,7 @@ open.addEventListener("click",()=>{
 프로토타입을 사용하면 메서드를 필요할때마다 추가할수 있다.
 그래서 일반적으로 객체의 메서드는 프로토 타입을 사용해서 정의한다.
 
+### 1.생성자
 
 
 
