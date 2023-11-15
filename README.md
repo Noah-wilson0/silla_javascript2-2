@@ -6,7 +6,10 @@
 [3.리스너-on이벤트](#3on-이벤트) <br>
 ## 기말고사
 [1.생성자(9장)](#1생성자) <br>
-[3.두 변수 값 교환하기](3두-변수-값-교환하기) <br>
+[3.두 변수 값 교환하기](#3두-변수-값-교환하기) <br>
+
+
+
 ### 1\.블록 소크프
 [블록 스코프 소스 코드](https://github.com/noah-wilson0/silla_javascript2-2/blob/main/4%EC%9E%A5/js/scope-4.js)<br>
 [코드 오류 이유](https://velog.io/@noah-wilson0/%EB%B8%94%EB%A1%9D-%EC%86%8C%EC%BD%94%ED%94%84) <br>
