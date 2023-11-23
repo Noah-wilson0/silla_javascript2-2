@@ -1,0 +1,23 @@
+let xhr=new XMLHttpRequest();
+xhr.open("GET","student.json");
+xhr.send();
+xhr.onreadystatechange=function(){
+    if(xhr.readyState===4 && xhr.status==200){
+        let student=JSON.parse(xhr.responseText);
+        // let result=document.querySelector("#result");
+        // result.innerHTML=`${student.name}학생은 ${student.grade}학년입니다.`;
+        document.querySelector("#result").innerHTML=`
+            <h1>${student.name}</h1>
+                <ul>
+                    <li>전공 : ${student.major} </li>
+                    <li>학년: ${student.grade}</li>
+
+
+
+                </ul>
+        `;
+
+    }
+
+}
+
