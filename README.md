@@ -8,7 +8,7 @@
 [1.생성자(9장)](#1생성자) <br>
 [2.forEach()메서드(10장)](#2forEach메서드) <br>
 [3.두 변수 값 교환하기(11장)](#3두-변수-값-교환하기) <br>
-
+[4. 예외처리 12장](#4예외처리) <br>
 
 
 ### 1\.블록 소크프
@@ -108,8 +108,13 @@ console.log("x : ",x);
 console.log("y : ",y);
 ```
 
+### 4\.예외처리
+[원본](https://github.com/noah-wilson0/silla_javascript2-2/edit/main/12%EC%9E%A5/js/quiz-2.js)
 
-
-
-
+```javascript
+        //1. throw "사용자 이름이 없습니다.";
+        throw new Error("사용자 이름이 없습니다."); //2.
+```
+어떤 방법을 사용해도 "사용자 이름이 없습니다."로 출력된다. <br>
+하지만 `2`처럼 사용하면 catch(Error){}에서  받은 Error객체의 name은 Error이 되고 meassage는 "사용자 이름이 없습니다."가 된다.  <br>
 
