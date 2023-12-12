@@ -22,5 +22,11 @@ result.innerHTML=`
     .map(subject=>`<li>${subject}</li>`).join("")}
 </ul>
 `;
- 
+ console.log([...subjects1].map((sub)=>`<li>${sub}</li>`));
+// (5) ['<li>HTML</li>', '<li>CSS</li>', '<li>자바스크립트</li>', '<li>리액트</li>', '<li>타입스크립트</li>']
+// 0: "<li>HTML</li>"
+// 1: "<li>CSS</li>"
+// 2: "<li>자바스크립트</li>"
+// 3: "<li>리액트</li>"
+// 4: "<li>타입스크립트</li>"
 
