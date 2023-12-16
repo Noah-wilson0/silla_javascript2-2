@@ -26,7 +26,7 @@ raffle.addEventListener("click",(e)=>{
 clear.addEventListener("click",()=>{
     seed.value="";
     total.value="";
-    // result.innerHTML="";
-       // result의 부모 노드(container)에서 result 제거
-       result.parentNode.removeChild(result);
+    result.innerHTML="";
+    result.classList.remove("show");
+
 });
